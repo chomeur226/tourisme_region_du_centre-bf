@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <style>
+        body {  
+            background-color:  lightblue;  
+            font-family: Arial, sans-serif;  
+        }  
+        header, nav, footer {  
+            background-color: #333;  
+            color: white;  
+            padding: 10px;  
+            text-align: center;  
+        }  
+        nav a {  
+            color: white;  
+            margin: 15px;  
+            text-decoration: none;  
+        }  
+        .container {  
+            padding: 20px;  
+            text-align: justify;  
+        }  
+        .container h2{
+            text-align: center;
+        }
+        .hotel-info {  
+            display: none;  
+            margin-top: 10px;  
+        }  
+        .hotel-image {  
+            max-width: 100%;  
+            height: auto;  
+        } 
+        p {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+            .support-container, .sitemap-container {
+                width: 95%;
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            .support-container h2 {
+                font-size: 1.2em;
+            }
+
+            label, input, textarea, button {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                font-size: 1.2em;
+                padding: 15px;
+            }
+
+            .support-container {
+                padding: 5px;
+            }
+
+            .support-container h2 {
+                font-size: 1em;
+            }
+
+            label, input, textarea, button {
+                font-size: 12px;
+            }
+        }
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>OUAGADOUGOU</h1>
+        <img src="logo.jpg"  width="100%"  height="100%" alt="Logo de la Ville">
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="Patrimoine.html">Patrimoine</a>
+        <a href="reservation.html">Réservation d'hôtel</a>
+        <a href="Galerie.html">Galerie</a>
+    </nav>
+    <div class="container">
+        <!-- Page d'accueil -->
+        <section id="accueil">
+            <h2>Bienvenue à OUAGADOUGOU</h2>
+            <p><i><b>Ouagadougou, souvent appelée Ouaga, est la capitale animée et la plus grande ville du Burkina Faso, avec une population estimée à plus de 2,8 millions d'habitants en 2022. Située au cœur du pays, elle est le centre culturel, économique et administratif du Burkina Faso. La ville est soumise à un climat tropical de savane avec deux saisons distinctes : la saison sèche et la saison des pluies. Les habitants de Ouagadougou, appelés Ouagalais, sont principalement des Mossis.<br>Ouaga offre une variété d'attractions pour les visiteurs, allant des sites historiques aux festivals culturels, faisant d'elle une destination incontournable pour ceux qui souhaitent découvrir le Burkina Faso.</i></b> </p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Ouagadougou . Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

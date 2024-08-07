@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrimoine - OUAGAGOUDOU</title>
+    <style>  
+        body {  
+            background-color:  lightblue ;  
+            font-family: Arial, sans-serif;  
+        }  
+        header, nav, footer {  
+            background-color: #333;  
+            color: white;  
+            padding: 10px;  
+            text-align: center;  
+        }  
+        nav a {  
+            color: white;  
+            margin: 15px;  
+            text-decoration: none; 
+        }  
+        .container {  
+            padding: 20px;  
+            text-align: center;  
+        }  
+        .large-word{
+            font-size: 50px;
+            font-weight: lighter;
+        }
+        .large-text{
+            font-size: 30px;
+            font-weight: 100;
+        }
+        .heritage-list {  
+            display: grid;  
+            gap: 10px;   
+            padding: 20px; 
+        }  
+        .heritage-list img {  
+            width: 100%;      
+            height: auto;     
+            object-fit: cover; 
+            background-color: grey; 
+            margin: auto; 
+        }  
+        p {
+    font-family: sans-serif;
+    font-size: 16px;
+    }
+    .support-container, .sitemap-container {
+    width: 95%;
+    padding: 10px;
+}
+label, input, textarea, button {
+    font-size: 1em; /* Utilisez em pour la taille de police */
+}
+/* Pour les écrans jusqu'à 768px */
+@media (max-width: 768px) {
+    .support-container, .sitemap-container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .support-container h2 {
+        font-size: 1.2em;
+    }
+
+    label, input, textarea, button {
+        font-size: 1em;
+    }
+}
+
+/* Pour les écrans jusqu'à 480px */
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2em;
+        padding: 15px;
+    }
+
+    .support-container {
+        padding: 5px;
+    }
+
+    .support-container h2 {
+        font-size: 1em;
+    }
+
+    label, input, textarea, button {
+        font-size: 1em;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OUAGADOUGOU</h1>
+        <img src="logo.jpg" width="100%"  height="100%" alt="Logo de la Ville">
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="Patrimoine.html">Patrimoine</a>
+        <a href="reservation.html">Réservation d'hôtel</a>
+        <a href="Galerie.html">Galerie</a>
+    </nav>
+    <div class="container">
+        <section id="patrimoine">
+            <h2><span class="large-word">Patrimones de la Ville de OUAGADOUGOU</span></h2><br>
+            <h3><span class="large-text"> Cliquez sur une image pour plus de détails</h3>
+            <div class="heritage-list">
+                <a href="Site 1.html"><img src="Village artisanal.jpg" alt="Village artisanal de Ouagadougou"></a>
+                <a href="Site 2.html"><img src="Parc.jpg" alt="Parc urbain Bangr-wéogo"></a>
+                <a href="Site 3.html"><img src="Bazoulé.jpg" alt="Les crocodiles sacrés de Bazoulé"></a>
+                <a href="Site 4.html"><img src="laongo.jpg" alt="Les sculptures sur granit de Laongo"></a>
+                <a href="Site 5.html"><img src="monument.jpg" alt="Monument des Héros nationaux du Burkina Faso"></a>
+                <a href="Site 6.html"><img src="Musée.jpg" alt="Le musée national du Burkina Faso"></a>
+                <a href="Site 7.html"><img src="SIAO.jpg" alt="Salon International des Arts de Ouagadougou"></a>
+                <a href="Site 8.html"><img src="Cathédrale.jpg" alt="La cathédrale de l'immaculée de Ouagadougou"></a>
+                <a href="Site 9.html"><img src="thomsank.jpg" alt="Mémorial Thomas SANKARA"></a>
+                <a href="Site 10.html"><img src="musée_georges.jpg" alt="Musée de la musique Georges OUEDRAOGO"></a>
+                <a href="Site 11.html"><img src="mosquée.jpg" alt="La grande Mosquée de Ouagadougou"></a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Ouagadougou. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
